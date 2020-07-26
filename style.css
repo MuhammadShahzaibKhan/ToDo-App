@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(image/back\ image.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.todo-div , .heading{
+    text-align: center;
+}
+
+.heading{
+    margin: 280px 0px 10px 0px;
+}
+
+.todo-div{
+    margin: 60px 0px 30px 0px;
+}
+
+.todo-div input{
+    border: 1px solid black !important;
+    height: 35px !important;
+}
+
+.todo-list-div li{
+    text-align: center;
+    margin: 13px 0px;
+    font-size: 25px;
+}
+
+.btn-1{
+    margin: 8px 6px;
+}
+
+@media (max-width: 576px) {
+    
+    .heading{
+        margin: 150px 0px 10px 0px;
+    }
+}

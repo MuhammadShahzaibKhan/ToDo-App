@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Shahzaib's ToDo App</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>ToDo App</h1>
+    </div>
+    <div class="todo-div">
+        <input  placeholder=" Enter Your Item" type="text" id="todo-input">
+        <button class="btn btn-outline-success" onclick="addItem();">ADD ITEM</button>
+        <button class="btn btn-outline-danger" onclick="removeAll();">REMOVE ALL</button>
+    </div>
+
+    <div class="todo-list-div">
+        <ul id="items-list">
+
+        </ul>
+    </div>
+
+    
+</body>
+
+<script src="app.js"></script>
+</html>
